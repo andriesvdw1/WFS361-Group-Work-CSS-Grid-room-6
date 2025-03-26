@@ -1,0 +1,6 @@
+menu{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: "nav";
+    background-color:#ff8151;
+}

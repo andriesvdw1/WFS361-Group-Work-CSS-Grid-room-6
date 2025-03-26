@@ -1,0 +1,38 @@
+.home-link{ grid-area: hl; background-color:#44424d !important ; color: white;}
+.products-link{grid-area: pl;}
+.services-link{grid-area: sl;}
+.team-link{grid-area: tl;}
+.portfolio-link{grid-area: pll;}
+.blog-link{grid-area: bl;}
+.contact-link{grid-area: cl;}
+.go-link{grid-area: gl;}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    }
+
+
+.nav-item{
+    display: grid;
+    grid-template-areas: "hl pl sl tl pll bl cl . . gl";
+    grid-template-columns: repeat(10, 10%);
+    background-color:#ff8151;
+    width: 100%;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    
+}
+.nav-item > *{display: block; height: 10px; 
+    width: auto;
+    color: white;
+    background-color:#ff8151;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    border: 2px solid white;
+    text-align: center;
+}
