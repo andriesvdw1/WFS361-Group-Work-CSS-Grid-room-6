@@ -3,9 +3,9 @@ Elements in the navigation menu had a white border that we did not want and styl
 Padding and centering of the navigation items top and bottom centering did not work properly.
 
 # Group members  
-Obakeng Tsaagane
-Tshepiso Marutlulle
-Sifiso Ntuli
+Obakeng Tsaagane,
+Tshepiso Marutlulle,
+Sifiso Ntuli,
 Andries van der Westhuizen
 
 # Technologies used  
